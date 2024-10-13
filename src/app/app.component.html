@@ -1,0 +1,16 @@
+<div class="heading-container">
+  <h1>Welcome To {{ title }}</h1>
+</div>
+<nav>
+  <ul>
+    <li><a [routerLink]="['/home']">Home</a></li>
+    <li><a [routerLink]="['/clients']">Client Management</a></li>
+    <li><a [routerLink]="['/meetings']">Meeting Schedule Management</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer>
+  &copy; Parth 2024
+</footer>

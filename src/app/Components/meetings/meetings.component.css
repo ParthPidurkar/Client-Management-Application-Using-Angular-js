@@ -1,0 +1,196 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.meeting-form, .meeting-list {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.meeting-form:hover, .meeting-list:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+h1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #00040a;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+  color: #1b5cd4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn-schedule {
+  width: 100%;
+  background-color: #082f76;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-schedule:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+thead th {
+  background-color: #082f76;
+  color: #fff;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+tbody td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+tbody tr:hover {
+  background-color: #f1f3f5;
+  transition: background-color 0.2s ease;
+}
+
+.btn-delete, .btn-edit {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+  background-color: #28a745;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+.btn-edit:hover {
+  background-color: #218838;
+}
+
+
+.btn-save {
+  width: 100%;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.btn-save:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+
+.btn-cancel {
+  width: 100%;
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
+}
+
+.btn-cancel:hover {
+  background-color: #d81111;
+  transform: translateY(-2px);
+}
+#title_name{
+  margin: 10px auto;
+  width: 60%;
+  max-width: 800px;
+  background:linear-gradient(135deg, #2b2d42, #46758b);
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

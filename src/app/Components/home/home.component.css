@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+div:hover {
+  transform: scale(1.02);
+}
+#title_name{
+  margin: 10px auto;
+  width: 60%;
+  max-width: 800px;
+  background: linear-gradient(135deg, #2b2d42, #46758b);
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  font-size: 26px;
+  color: #1b5cd4;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input[type="date"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease;
+}
+
+input[type="date"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+h3 {
+  font-size: 22px;
+  color: #007bff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+li {
+  background-color: #f0f7ff;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 6px solid #007bff;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e1edff;
+}
+
+strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.no-meetings,
+select-date-message {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  div {
+    width: 95%;
+  }
+}

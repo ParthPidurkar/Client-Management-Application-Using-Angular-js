@@ -1,0 +1,45 @@
+{
+  "clients": [
+    {
+      "id": "1727894713531",
+      "name": "Client 2",
+      "email": "client1@gmail.com",
+      "phone": "9518559175"
+    },
+    {
+      "id": "1728397827507",
+      "name": "parth",
+      "email": "parthpidurkar667@gmail.com",
+      "phone": "952254122764"
+    },
+    {
+      "id": "1728828739669",
+      "name": "Client 3",
+      "email": "client3@gmail.com",
+      "phone": "9518559175"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "1728754891634",
+      "clientId": "1727894713531",
+      "date": "2024-10-25",
+      "time": "23:14",
+      "agenda": "thdgjsfhxzjfhkasj"
+    },
+    {
+      "id": "1728797911598",
+      "clientId": "1728397827507",
+      "date": "2024-10-13",
+      "time": "12:10",
+      "agenda": "uihkfhkdgj"
+    },
+    {
+      "id": "1728797932336",
+      "clientId": "1727894713531",
+      "date": "2024-10-13",
+      "time": "14:11",
+      "agenda": "dyt"
+    }
+  ]
+}
